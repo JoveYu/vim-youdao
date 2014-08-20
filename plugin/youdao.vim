@@ -1,6 +1,6 @@
 function! SearchWord()
     if filereadable(expand('~/.vim/bundle/vim-youdao/python/ydcv'))
-        let expl=system('~/.vim/bundle/vim-youdao/python/ydcv' .
+        let expl=system('~/.vim/bundle/vim-youdao/python/ydcv ' .
                     \  expand("<cword>"))
         windo if
                     \ expand("%")=="YoudaoDict" |
@@ -11,7 +11,7 @@ function! SearchWord()
         1
     endif
     if filereadable(expand('~/.vim/python/ydcv'))
-        let expl=system('~/.vim/python/ydcv' .
+        let expl=system('~/.vim/python/ydcv ' .
                     \  expand("<cword>"))
         windo if
                     \ expand("%")=="YoudaoDict" |

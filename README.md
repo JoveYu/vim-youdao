@@ -2,7 +2,7 @@
 
 The plugin is fork from [vim-sdcv][1], and it can search word in Vim.
 
-![sdcv at Vim](https://raw.githubusercontent.com/JoveYu/vim-youdao/image/example.png)
+![sdcv at Vim](https://raw.githubusercontent.com/JoveYu/vim-youdao/master/image/example.png)
 
 ▲ use ydcv in Vim.
 

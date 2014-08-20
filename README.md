@@ -26,13 +26,14 @@ Mapping for quick search word.
     nmap F :call SearchWord()<CR>
 
 ## File Structure
-├── image
-│   └── example.png
-├── plugin
-│   └── youdao.vim
-├── python
-│   └── ydcv
-└── README.md
+
+    ├── image
+    │   └── example.png
+    ├── plugin
+    │   └── youdao.vim
+    ├── python
+    │   └── ydcv
+    └── README.md
 
 [1]: https://github.com/chusiang/vim-sdcv
 [2]: https://github.com/tpope/vim-pathogen

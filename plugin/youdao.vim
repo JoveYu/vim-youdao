@@ -23,7 +23,7 @@ function! SearchWord()
     endif
 endfunction
 
-function  GSearchWord()
+function!  GSearchWord()
     let  expl=system('ydcv  '  .
        \  v:beval_text  .
        \  '|fmt  -cstw  40')

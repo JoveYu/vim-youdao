@@ -1,6 +1,9 @@
+
+let s:ydcv_path=expand("<sfile>:p:h") . '/../python/ydcv'
+
 function! SearchWord()
-    if filereadable(expand("%:p:h") . '/../python/ydcv')
-        let expl=system(expand("%:p:h") . '/../python/ydcv ' .
+    if filereadable(s:ydcv_path)
+        let expl=system(s:ydcv_path . ' ' .
                     \  expand("<cword>"))
         windo if
                     \ expand("%")=="YoudaoDict" |

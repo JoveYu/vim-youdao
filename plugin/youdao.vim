@@ -9,7 +9,7 @@ function! SearchWord()
                     \ expand("%")=="YoudaoDict" |
                     \ q!|endif
         60vsp YoudaoDict
-        setlocal buftype=nofile bufhidden=hide noswapfile
+        setlocal buftype=nofile bufhidden=hide noswapfile nonu
         1s/^/\=expl/
         1
     endif
